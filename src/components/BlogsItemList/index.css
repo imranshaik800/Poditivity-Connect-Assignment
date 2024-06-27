@@ -1,0 +1,53 @@
+.blogs {
+    padding: 10px;
+    margin: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.delete-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: first baseline;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    
+    cursor: pointer;
+}
+.blogs-items {
+    margin: 20px;
+    border: 2px black solid;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px lightslategray;
+}
+
+.Title {
+    color: green;
+    font-size: 40px;
+    font-family: "roboto";
+    font-weight: bold;
+}
+
+.Author {
+    font-size: 30px;
+    font-family: "roboto";
+    color: black;
+    font-weight: bold;
+}
+
+.Content {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.Data {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
